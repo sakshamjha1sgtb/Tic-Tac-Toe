@@ -9,7 +9,7 @@ body{
 }
 
 .outer{
-	width:60vw;
+	width:90vw;
 	margin:auto;
 	padding-top:3%;
 }
@@ -52,7 +52,7 @@ body{
 }
 .b2{
 	border: 2px solid white;
-	width:32%;
+	width:33%;
 }
 .b3{
 	border: 2px solid white;
@@ -64,7 +64,7 @@ body{
 }
 .b5{
 	border: 2px solid white;
-	width:32%;
+	width:33%;
 }
 .b6{
 	border: 2px solid white;
@@ -76,7 +76,7 @@ body{
 }
 .b8{
 	border: 2px solid white;
-	width:32%;
+	width:33%;
 }
 .b9{
 	border: 2px solid white;
