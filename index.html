@@ -1,7 +1,7 @@
 <!Doctype=html>
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<title> zero kanta</title>
 		<link rel="stylesheet" href="style.css">
 	</head>
@@ -9,12 +9,18 @@
 		<div class="heading">
 			<h1>Tic Tac Toe </h1>
 		</div>
+			<div class="Result">
+			<p id="result">Winner is player 1 
+			</p>
+			<button class="button" onclick="reload()">Reset</button>
+		</div>
+		
 		<div class="outer">
 			<div class="names">
-				<div class="p1">
+				<div class="p1" id="turn1">
 					player 1 <p>O</p>
 				</div>
-				<div class="p2">
+				<div class="p2" id="turn2">
 					player 2 <p>X</p>
 				</div>
 			</div>
@@ -69,6 +75,7 @@
 		<div class="none">
 			<p id="none"></p>
 		</div>
+	
 	</body>
 	<script src="script.js"></script>
 </html>
