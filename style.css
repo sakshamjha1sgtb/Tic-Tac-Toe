@@ -9,7 +9,7 @@ body{
 }
 
 .outer{
-	width:100vw;
+	width:400px;
 	margin:auto;
 	padding-top:3%;
 }
@@ -47,39 +47,39 @@ body{
 	flex-wrap:wrap;
 }
 .b1{
-	border: 2px solid white;
+	border: solid white;
 	width:32%;
 }
 .b2{
-	border: 2px solid white;
-	width:33%;
+	border:  solid white;
+	width:32%;
 }
 .b3{
-	border: 2px solid white;
+	border: solid white;
 	width:32%;
 }
 .b4{
-	border: 2px solid white;
+	border: solid white;
 	width:32%;
 }
 .b5{
-	border: 2px solid white;
-	width:33%;
+	border:  solid white;
+	width:32%;
 }
 .b6{
-	border: 2px solid white;
+	border:  solid white;
 	width:32%;
 }
 .b7{
-	border: 2px solid white;
+	border:  solid white;
 	width:32%;
 }
 .b8{
-	border: 2px solid white;
-	width:33%;
+	border:  solid white;
+	width:32%;
 }
 .b9{
-	border: 2px solid white;
+	border:  solid white;
 	width:32%;
 }
 .inin{
@@ -91,10 +91,29 @@ body{
 	color:black;
 	cursor:pointer;
 }
-.inin p:hover{
-	background:grey;
-	color:grey;
-}
 .none{
 	display:none;
+}
+.Result{
+	margin-top:20px;
+	width:100%;
+	font-size:5vw;
+	color:white;
+	text-align:center;
+}
+.button{
+	padding:10px;
+	font-weight:900;
+	background:#00FFFF;
+	color:white;
+	text-shadow: 1px 1px black;
+	border-radius:10%;
+	border:2px solid yellow;
+}
+.button:hover{
+	background:white;
+	color:#00FFFF;
+}
+.button:active{
+	transform:scale(0.8);
 }
