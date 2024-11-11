@@ -239,62 +239,62 @@ function winner(){
 		document.getElementById('p1').style.background="white";
       document.getElementById('p2').style.background="white";
       document.getElementById('p3').style.background="white";
-		document.getElementById('result').innerHTML="Winner is player 2";
+		document.getElementById('result').innerHTML="I love Vibhuti";
 		document.getElementById("result").style.display="contents";
 	}
 	else if(b1==b4 && b4==b7 && b1=="X"){
 		document.getElementById('p1').style.background="white";
       document.getElementById('p4').style.background="white";
       document.getElementById('p7').style.background="white";
-		document.getElementById('result').innerHTML="Winner is player 2";
+		document.getElementById('result').innerHTML="Happy birthday Vibhuti, I love you so much";
 		document.getElementById("result").style.display="contents";
 	}
 	else if(b1==b5 && b5==b9 && b1=="X"){
 		document.getElementById('p1').style.background="white";
       document.getElementById('p5').style.background="white";
       document.getElementById('p9').style.background="white";
-		document.getElementById('result').innerHTML="Winner is player 2";
+		document.getElementById('result').innerHTML="Love you my baccha sexy babu.";
 		document.getElementById("result").style.display="contents";
 	}
 	else if(b2==b5 && b5==b8 && b2=="X"){
 		document.getElementById('p2').style.background="white";
       document.getElementById('p5').style.background="white";
       document.getElementById('p8').style.background="white";
-		document.getElementById('result').innerHTML="Winner is player 2";
+		document.getElementById('result').innerHTML="Saksham Loves Vibhuti";
 		document.getElementById("result").style.display="contents";
 	}
 	else if(b3==b6 && b6==b9 && b3=="X"){
 		document.getElementById('p3').style.background="white";
       document.getElementById('p6').style.background="white";
       document.getElementById('p9').style.background="white";
-		document.getElementById('result').innerHTML="Winner is player 2";
+		document.getElementById('result').innerHTML="";
 		document.getElementById("result").style.display="contents";
 	}
 	else if(b3==b5 && b5==b7 && b3=="X"){
 		document.getElementById('p3').style.background="white";
       document.getElementById('p5').style.background="white";
       document.getElementById('p7').style.background="white";
-		document.getElementById('result').innerHTML="Winner is player 2";
+		document.getElementById('result').innerHTML="Saksham loves Vibhuti a lottt";
 		document.getElementById("result").style.display="contents";
 	}
 	else if(b4==b5 && b5==b6 && b4=="X"){
 		document.getElementById('p4').style.background="white";
       document.getElementById('p5').style.background="white";
       document.getElementById('p6').style.background="white";
-		document.getElementById('result').innerHTML="Winner is player 2";
+		document.getElementById('result').innerHTML="Vibhuti I am sorry";
 		document.getElementById("result").style.display="contents";
 	}
 	else if(b7==b8 && b8==b9 && b7=="X"){
 		document.getElementById('p7').style.background="white";
       document.getElementById('p8').style.background="white";
       document.getElementById('p9').style.background="white";
-		document.getElementById('result').innerHTML="Winner is player 2";
+		document.getElementById('result').innerHTML="Vibhuti is soo cute";
 		document.getElementById("result").style.display="contents";
 	}
 	else{
 		draw=draw+1;
 		if(draw==9){
-		document.getElementById('result').innerHTML="Match Draw";
+		document.getElementById('result').innerHTML="Please Saksham ko maaf kardo";
 		document.getElementById("result").style.display="contents";	
 		}
 	}
